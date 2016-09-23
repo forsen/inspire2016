@@ -32,7 +32,7 @@
     $.fn.extend({
         sensorstatistics: function (settings) {
             var $this = $(this);
-            var serviceUrl = 'http://citisense.u-hopper.com';
+            var serviceUrl = 'https://citisense.u-hopper.com';
 //            var serviceUrl = 'http://citisense.local';
 
             function CitisenseSensorWidget(settings) {
