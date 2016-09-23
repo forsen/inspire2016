@@ -12,30 +12,18 @@ const LEOCard = (props) => (
       subtitle="Sensor"
       actAsExpander={true}
       showExpandableButton={true}
-      avatar={require('../../images/icon175x175.jpg')}
+      avatar={require('../../images/leo.png')}
     />
     <CardText expandable={true}>
       <CardActions>
         <RaisedButton
-          label="Source"
+          label="Manual"
           target="_blank"
-          href="https://git.nilu.no/citi-sense/cityair"
-        />
-        <RaisedButton
-          label="Google Play Store"
-          target="_blank"
-          href="https://play.google.com/store/apps/details?id=io.cordova.CityAir&hl=no"
-        />
-        <RaisedButton
-          label="iTunes App Store"
-          target="_blank"
-          href="https://itunes.apple.com/us/app/cityair-perception/id1045646666?mt=8"
+          href="http://dump.unagi.no/LEOUserGuideV1.0.pdf"
         />
       </CardActions>
-      CityAir is a smartphone application (App) for the public to express their perception of the outdoor air quality at
-      their location. It allows users to collect and display individual perceptions of air quality, irrespective of
-      where they are in the world. It also allows users to indicate the assumed source of the air pollution and write a
-      comment.
+      The LEOs are portable sensor packs. It measures NO, NO2 and O3 using electrochemical sensors. It also provides the current temperature and relative humidity.
+      The personal sensors together with the ExpoApp smartphone application from Ateknea Solutions.
     </CardText>
   </Card>
 );

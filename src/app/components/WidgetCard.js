@@ -30,13 +30,15 @@ class WidgetCard extends Component {
         {...this.props}
       >
         <CardHeader
-          title="BLahh"
+          title="Data visualization widgets"
           subtitle="Widget"
           actAsExpander={true}
           showExpandableButton={true}
+          avatar={require('../../images/uhopper_logo.jpg')}
         />
 
         <CardText expandable={true}>
+          Choose which widget you want to load
           <CardActions>
             <FlatButton label="Historical" onClick={() => {this.renderWidget(widgets.HISTORICALSENSORVALUES)}}/>
             <FlatButton label="Real Time" onClick={() => {this.renderWidget(widgets.REALTIMESENSORVALUE)}}/>
