@@ -1,0 +1,60 @@
+.citisense-widget {
+	position: relative;
+	font-family: sans-serif;
+	border: 1px solid #323232;
+    
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    
+    background-color: #fff;
+    margin: 0;
+    height: inherit;
+    width: inherit;
+    color:#404040;
+    padding: 1px;
+    overflow: auto;
+}
+
+.citisense-widget .title {
+    padding: 10px 2px;
+	text-align: center;
+    font-size: 150%;
+    
+}
+
+.citisense-widget .subtitle {
+    padding: 6px 2px;
+	text-align: center;
+    font-size: 120%;
+}
+
+.citisense-widget table {
+    width: 100%;
+}
+.citisense-widget table th {
+    font-weight: bold;
+}
+.citisense-widget table, .citisense-widget table th, .citisense-widget table td {
+    border: 0;
+    text-align: left;
+    border-bottom: 1px solid black;
+    padding: 5px 2px;
+}
+
+.citisense-widget .ssw-loading {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 50%;
+}
+.citisense-widget .ssw-loading span {
+    background-image: url("../../img/loading.gif");
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    margin-top: -25px;
+}
