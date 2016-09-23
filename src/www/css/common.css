@@ -50,7 +50,6 @@
 	top: 50%;
 }
 .citisense-widget .ssw-loading span {
-    background-image: url("../../img/loading.gif");
     background-position: center center;
     background-repeat: no-repeat;
     height: 50px;
