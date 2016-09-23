@@ -6,6 +6,7 @@ import CityAirCard from './components/CityAirCard';
 import Widget from './components/WidgetCard';
 import WFSCard from './components/WFSCard';
 import PortalCard from './components/PortalCard';
+import LEOCard from './components/LEOCard';
 
 injectTapEventPlugin();
 
@@ -16,6 +17,7 @@ const App = () => (
       <CityAirCard style={styles.card}/>
       <Widget style={styles.card}/>
       <PortalCard style={styles.card}/>
+      <LEOCard style={styles.card}/>
     </div>
   </MuiThemeProvider>
 );
