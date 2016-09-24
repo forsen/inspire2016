@@ -125,6 +125,7 @@
                     // call before method
                     options.before(el);
 
+                    console.log("REQUEST: " + url);
                     $.ajax({
                         url: url,
                         type: 'GET',
