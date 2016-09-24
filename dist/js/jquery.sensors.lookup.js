@@ -174,11 +174,13 @@
           // call before method
           options.before(el);
 
+          console.log('REQUEST: '+url);
           $.ajax({
             url : url,
             type: 'GET',
             dataType: 'json',
             async: options.async,
+
             // beforeSend : options.before(el, options)
           }).done(function(response){
             options.success(el, response, options);

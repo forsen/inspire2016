@@ -14,7 +14,7 @@ class WidgetCard extends Component {
         type: 'historic',
         env: 'prod',
         filters: {
-          sensorId: 'LEO-666BA0BF',
+          sensorId: 'LEO-666BA0B0',
         },
         measurement: {
           type: 'value',
