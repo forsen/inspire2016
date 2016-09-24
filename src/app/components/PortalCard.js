@@ -22,8 +22,11 @@ const PortalCard = (props) => (
           href="http://srv.dunavnet.eu/new/citisense/OutdoorDataPortal/#"
         />
       </CardActions>
-      The CITI-SENSE data web page is a web tool for viewing collected data. It is based on input from the CITI- SENSE platform that collects anonymized information.
-      The user can choose to look at different data types and to combine these in a simple map.
+      <p>
+        The CITI-SENSE data web page is a web tool for viewing collected data. It is based on input from the CITI- SENSE
+        platform that collects anonymized information. The user can choose to look at different data types and to
+        combine these in a simple map.
+      </p>
       <iframe height="900px" width="100%" src="http://srv.dunavnet.eu/new/citisense/OutdoorDataPortal/#"/>
     </CardText>
   </Card>

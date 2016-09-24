@@ -32,10 +32,12 @@ const CityAirCard = (props) => (
           href="https://itunes.apple.com/us/app/cityair-perception/id1045646666?mt=8"
         />
       </CardActions>
-      CityAir is a smartphone application (App) for the public to express their perception of the outdoor air quality at
-      their location. It allows users to collect and display individual perceptions of air quality, irrespective of
-      where they are in the world. It also allows users to indicate the assumed source of the air pollution and write a
-      comment.
+      <p>
+        CityAir is a smartphone application (App) for the public to express their perception of the outdoor air quality
+        at their location. It allows users to collect and display individual perceptions of air quality, irrespective of
+        where they are in the world. It also allows users to indicate the assumed source of the air pollution and write
+        a comment.
+      </p>
     </CardText>
   </Card>
 );

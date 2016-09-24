@@ -21,9 +21,20 @@ const LEOCard = (props) => (
           target="_blank"
           href="http://dump.unagi.no/LEOUserGuideV1.0.pdf"
         />
+        <RaisedButton
+          label="Google Play Store"
+          target="_blank"
+          href="https://play.google.com/store/apps/details?id=ateknea.eu.expoapp2"
+        />
       </CardActions>
-      The LEOs are portable sensor packs. It measures NO, NO2 and O3 using electrochemical sensors. It also provides the current temperature and relative humidity.
-      The personal sensors together with the ExpoApp smartphone application from Ateknea Solutions.
+      <p>
+        The LEOs are portable sensor packs. It measures NO, NO2 and O3 using electrochemical sensors. It also provides
+        the current temperature and relative humidity. The personal sensors together with the ExpoApp smartphone
+        application from Ateknea Solutions.
+      </p>
+      <p>
+        We have multiple sensors at the hackathon that can be hacked with.
+      </p>
     </CardText>
   </Card>
 );
